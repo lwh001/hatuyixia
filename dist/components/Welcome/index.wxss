@@ -2,10 +2,10 @@
   font-size: 60rpx;
   animation: Scale 1s;
   text-align: center;
-  color: #fff;
+  color: #f81717;
 }
 .welcome-text text {
-  color: #fff;
+  color: #eb0f0f;
 }
 
 @keyframes Scale {
@@ -15,4 +15,10 @@
   to {
     transform: scale(1);
   }
+}
+image {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
 }

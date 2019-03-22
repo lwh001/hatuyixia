@@ -2,10 +2,11 @@
     "window": {
         "navigationBarBackgroundColor": "#00afc7",
         "backgroundTextStyle": "light",
-        "navigationBarTitleText": "nanachi",
-        "navigationBarTextStyle": "#00afc7"
+        "navigationBarTitleText": "哈图一下",
+        "navigationBarTextStyle": "black"
     },
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/joy/index"
     ]
 }

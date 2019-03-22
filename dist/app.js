@@ -5,8 +5,31 @@ function Global(...args) {
     window: {
       navigationBarBackgroundColor: '#00afc7',
       backgroundTextStyle: 'light',
-      navigationBarTitleText: 'nanachi',
-      navigationBarTextStyle: '#00afc7'
+      navigationBarTitleText: '哈图一下',
+      navigationBarTextStyle: 'black'
+    }
+  };
+  this.globalData = {
+    userInfo: null,
+    buildType: "wx"
+  };
+
+  this.getUserInfo = cb => {
+    var that = this;
+
+    if (this.globalData.userInfo) {
+      typeof cb == "function" && cb(this.globalData.userInfo);
+    } else {
+      wx.login({
+        success: function () {
+          wx.getUserInfo({
+            success: function (res) {
+              that.globalData.userInfo = res.userInfo;
+              typeof cb == "function" && cb(that.globalData.userInfo);
+            }
+          });
+        }
+      });
     }
   };
 }
@@ -25,6 +48,6 @@ var Global = React.toClass(Global, React.Component, {
 
     console.log('App launched');
   },
-  classUid: "c744"
+  classUid: "c1412"
 }, {});
 export default App(new Global());

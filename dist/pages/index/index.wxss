@@ -3,10 +3,11 @@ page {
 }
 
 .page {
-  background-color: #00afc7;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
+  background-size: 100% 100%;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553254856220&di=922a61b33331c5246b7817ce8ae4f5fd&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201512%2F04%2F20151204234755_fPERM.thumb.700_0.jpeg");
 }
