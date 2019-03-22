@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "anu-welcome": "/components/Welcome/index"
+    }
+}
