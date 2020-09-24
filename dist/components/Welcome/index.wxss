@@ -1,0 +1,24 @@
+.welcome-text {
+  font-size: 60rpx;
+  animation: Scale 1s;
+  text-align: center;
+  color: #f81717;
+}
+.welcome-text text {
+  color: #eb0f0f;
+}
+
+@keyframes Scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+image {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,1 @@
+<view class="box"><image src="{{props.head}}" width="10" height="10" /><view class='welcome-text'>Hello, {{props.text}}</view></view>

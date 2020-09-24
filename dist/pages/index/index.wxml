@@ -1,0 +1,1 @@
+<view class='page' bindtap="dispatchEvent" data-tap-uid="e30_30" data-beacon-uid="default"><anu-welcome data-instance-uid="{{'i31_16_' + 0}}" /></view>

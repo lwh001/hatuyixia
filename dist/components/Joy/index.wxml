@@ -1,0 +1,1 @@
+<view class="box"><block wx:for="{{props.res.res}}" wx:for-item="res" wx:for-index="i265" wx:key="id"><view><view>{{res.title}}</view><view>{{res.text}}</view></view></block></view>

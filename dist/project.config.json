@@ -1,0 +1,12 @@
+{
+	"appid": "wxa6f2d5b07c6c3de7",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"condition": {}
+}
