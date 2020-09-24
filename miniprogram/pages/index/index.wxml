@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    小程序扩展接口新能力测试
+  </view>
+  <view>
+    <view></view>
+    <view></view>
+  </view>
+
+</view>
